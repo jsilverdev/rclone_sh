@@ -7,5 +7,4 @@ sync() {
         notify "Sync command is already running, try later"
         exit 1
     fi
-    exit 0
 }

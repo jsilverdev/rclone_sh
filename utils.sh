@@ -1,4 +1,4 @@
-export $( grep -vE "^(#.*|\s*)$" .env )
+export $( grep -vE "^(#.*|\s*)$" $(dirname "$0")/.env )
 
 notify() {
     MESSAGE=$1

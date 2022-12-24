@@ -1,7 +1,7 @@
 #!/bin/bash
 
-source utils.sh
-source sync.sh
+source "$(dirname "$0")/utils.sh"
+source "$(dirname "$0")/sync.sh"
 
 set -x
 notify "Start Download"
