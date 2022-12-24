@@ -1,9 +1,9 @@
 #!/bin/bash
 
-SERVICE_NAME="keepass_remote2local"
+source "$(dirname "$0")/variables.sh"
 
 # SYNC_SCRIPT: dynamic reference to the current script path
-SYNC_SCRIPT=$(realpath ${SERVICE_NAME}.sh)
+SYNC_SCRIPT=$(realpath remote2local.sh)
 
 set -x
 mkdir -p ${HOME}/.config/systemd/user

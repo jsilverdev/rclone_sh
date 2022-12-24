@@ -1,0 +1,1 @@
+export $( grep -vE "^(#.*|\s*)$" $(dirname "$0")/.env )
