@@ -6,3 +6,7 @@ notify() {
         notify-send "rclone ${RCLONE_REMOTE}" "${MESSAGE}"
     fi
 }
+
+if test ${DEBUG} = "true"; then
+    set -x
+fi
