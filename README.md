@@ -1,5 +1,5 @@
 
-# Simple Rclone shell sync app
+# Simple Rclone shell to sync files
 
 Simple shell script for sync from a remote folder using [rclone](https://rclone.org/)
 
