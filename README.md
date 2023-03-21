@@ -1,7 +1,7 @@
 
-# Simple Rclone shell to sync files
+# Simple Rclone shell app to sync files
 
-Simple shell script for sync from a remote folder using [rclone](https://rclone.org/)
+Simple project to sync files with a remote folder using [rclone](https://rclone.org/)
 
 This script is based on this [gist from muety](https://gist.github.com/muety/873980a2440b4c6692003fc23903fe5a) and this [example from EnigmaCurry’s dev blog.](https://blog.rymcg.tech/blog/linux/rclone_sync/)
 
